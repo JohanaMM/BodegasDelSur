@@ -133,7 +133,6 @@ ocultarMapa();
       <div id="mapagrande" class="mapa">
        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8642497583137!2d-58.387166925130195!3d-34.607594057701455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac5466ccb9b%3A0x57419e9c86945b8f!2sBartolom%C3%A9%20Mitre%201280%2C%20C1036AAX%20CABA!5e0!3m2!1ses!2sar!4v1685136060146!5m2!1ses!2sar" width="650" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
      </div>
-<<<<<<< HEAD
      <!-- MAP chico -->
      <div id="mapamediano">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8642497583137!2d-58.387166925130195!3d-34.607594057701455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac5466ccb9b%3A0x57419e9c86945b8f!2sBartolom%C3%A9%20Mitre%201280%2C%20C1036AAX%20CABA!5e0!3m2!1ses!2sar!4v1685136060146!5m2!1ses!2sar" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -145,10 +144,6 @@ ocultarMapa();
     `;
 
 
-=======
-    `;
-  
->>>>>>> 7de37987e394fc8b32971f8584fcc4278dde80c7
     let form = document.querySelector("form");
   }
 
@@ -264,36 +259,3 @@ function navegacion2() {
     // Mostrar los resultados filtrados y ordenados
     display(arrayAfiltrar);
 }
-
-//detalles
-
-
-// // Función para mostrar los detalles de un producto
-// function showDetails(vinoId) {
-//     // Buscar el producto correspondiente al ID
-//     const producto = BodegasDelSur.find(producto => producto.id === vinoId);
-//     if (producto) {
-//         // Mostrar los detalles del producto
-//         console.log("Detalles del producto:");
-//         console.log("ID:", producto.id);
-//         console.log("Nombre:", producto.nombre);
-//         console.log("Precio:", producto.precio);
-//     } else {
-//         console.log("No se encontró un producto con el ID especificado:", vinoId);
-//     }
-
-//     // Redirigir a detalle.html
-//     window.location.href = "pages/detalle.html";
-// }
-
-// // Evento clic en el botón "Ver detalles" de un producto
-// document.addEventListener('DOMContentLoaded', function () {
-//     const buttons = document.querySelectorAll('.ver-detalles');
-
-//     buttons.forEach(button => {
-//         button.addEventListener('click', function () {
-//             const vinoId = parseInt(button.dataset.vinoId);
-//             showDetails(vinoId);
-//         });
-//     });
-// });
