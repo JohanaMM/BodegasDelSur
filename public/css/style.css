@@ -892,6 +892,7 @@ body {
 	}
 }
 
+<<<<<<< HEAD
 @media(min-width: 0px) and (max-width: 500px){
 	#mapachico {
 		display: block !important;
@@ -932,4 +933,10 @@ body {
 	#mapagrande {
 		display: block !important;
 	}
+=======
+.mapagrande{
+	background-color: red;
+max-width: 100%;
+width: 100rem;
+>>>>>>> 7de37987e394fc8b32971f8584fcc4278dde80c7
 }
