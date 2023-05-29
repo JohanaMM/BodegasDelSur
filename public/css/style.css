@@ -892,8 +892,45 @@ body {
 	}
 }
 
-.mapagrande{
-	background-color: red;
-max-width: 100%;
-width: 100rem;
+@media(min-width: 0px) and (max-width: 500px){
+	#mapachico {
+		display: block !important;
+	}
+	
+	#mapamediano {
+		display: none !important;
+	}
+	
+	#mapagrande {
+		display: none !important;
+	}
 }
+
+@media(min-width: 500px) and (max-width: 1000px){
+	#mapachico {
+		display: none !important;
+	}
+	
+	#mapamediano {
+		display: block !important;
+	}
+	
+	#mapagrande {
+		display: none !important;
+	}
+}
+
+@media(min-width: 768px){
+	#mapachico {
+		display: none !important;
+	}
+	
+	#mapamediano {
+		display: none !important;
+	}
+	
+	#mapagrande {
+		display: block !important;
+	}
+}
+
